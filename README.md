@@ -1,3 +1,4 @@
+1 Mini Code
 🩺 Diabetes Data Entry and Prediction System
 🧠 Overview
 
@@ -98,3 +99,39 @@ Result: The system successfully predicts diabetes status with 78% accuracy and s
 Author: Jignesh Jagatiya
 Project Type: Machine Learning + GUI Desktop Application
 Language Support: English, Gujarati
+
+2 Mini Code
+# 🌦 Weather Prediction System (PySide6 + ML)
+
+A modern desktop app that predicts **Weather Type** using **Temperature, Humidity, Wind Speed, and Cloud Cover**.  
+Built with **PySide6** for UI and **Scikit-learn** (Decision Tree Classifier) for ML.
+
+---
+
+## 🚀 Features
+- 🧠 Machine Learning (Decision Tree Classifier)
+- 🎨 Gradient UI with modern design & shadows
+- 🧾 Dropdown for Cloud Cover (`partly cloudy`, `clear`, `overcast`)
+- ⚡ Instant weather prediction
+- 📊 Auto-loads and trains from CSV dataset
+
+---
+
+## 🧩 Tech Stack
+**Python**, **PySide6**, **Scikit-learn**, **Pandas**, **NumPy**
+
+---
+
+## 🗂 Dataset
+Hosted on GitHub:  
+👉 [weather_classification_data.csv](https://raw.githubusercontent.com/Jignesh259/Diabetes_Prediction/main/weather_classification_data.csv)
+
+**Columns:**  
+`Temperature`, `Humidity`, `Wind Speed`, `Cloud Cover`, `Weather Type`
+
+---
+
+## 🖥 Setup
+```bash
+pip install pandas scikit-learn PySide6
+python weather_ui.py
